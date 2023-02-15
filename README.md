@@ -8,6 +8,12 @@ You need to run those two commands to install the project
 docker compose up -d 
 ```
 ```bash
+docker compose exec node npm install
+```
+```bash
+docker compose exec node npm run start:dev
+```
+```bash
 docker compose exec node npx prisma migrate dev --name init
 ```
 ```bash
